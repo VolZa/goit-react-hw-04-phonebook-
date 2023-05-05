@@ -1,22 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import { App } from 'components/App';
-import './index.css';
+import { App } from 'components/app/App';
+// import './index.css';rt
 import { ThemeProvider } from 'styled-components';
-import { App } from 'components/App/App';
+
 const theme = {
   colors: {
-    text: '#212121',
-    black: '#000',
-    white: '#fff',
-    gray: '#707070',
-    lightGray: '#f3f4f3',
-    accent: 'tomato',
-    green: 'green',
-    red: 'orangeRed',
-    lightBlue: '#14acdf',
-    error: 'red',
-    orange: '#ff7628',
+    primary: '#232323',
+    accent: '#6085d3',
+    white: '#fdfdfd',
   },
 };
 
